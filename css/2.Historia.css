@@ -1,0 +1,498 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+
+ 
+  
+ }
+ body {
+     background-color: white ;
+
+ }
+
+
+
+                                    /*Etiqueta fija*/
+/*INICIO*/
+#contenedor1 {  
+	width: 100%;
+	background-color:white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    position: fixed;
+   
+}
+.subconte{
+	width: 30%;
+	height: 60px;
+	background-color: #232E7C;
+   
+
+
+
+}
+.subconte-medio{
+	width: 40%;
+	height: 60px;
+	background-color: #232E7C;
+
+
+
+}
+.h1-medio{
+  margin: 7px;
+  font-size: 40px;
+    text-align: center;
+    color: orange;
+
+    
+}
+.h1-conte{
+    text-decoration: none; 
+	
+    margin: 20px 0 0 20px;
+
+	font-size: 25px;
+	color: white;
+    
+  
+ 
+
+
+}                                    /*Redes sociales*/
+.rs{
+ 
+	float: right;
+	margin: 10px 20px 0 0;
+	color: white;
+    
+
+}
+.rs:hover{
+	color: black;
+}
+/*FIN*/
+
+                                                  /*MENU DE NAVEGACION 
+(nav)Caja principal*/
+
+
+
+nav{/* color de fondo*/ 
+    background-color: white;  
+    width: 100%;
+    text-align: center; 
+	margin: 0px 150px 0px 150px;
+	padding: 10px;
+  
+
+
+}
+nav ul { /*se le quita los punto negros*/
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;   
+}
+nav > ul { /*para pornerlo de manera horizontal*/
+    display: flex;
+    flex-direction: row;  
+}
+nav > ul > li {
+    width: 20%;
+ 
+}
+nav a { /*tamaño, color y mas carateristicas dentro de (a)*/
+    text-decoration: none; 
+     color: #232E7C;
+     display: block;   /*para que cubran el tamaño de sus contenedor*/
+     padding: 5px;
+     font-family: Geneva, sans-serif;
+}
+nav > ul > li > ul { /* se ocultan las listas */
+    display: none;
+}
+nav > ul > li:hover > ul { /* luego para que vuelva aparecer*/
+    display: block;   
+    position: absolute;
+    background-color: white;
+}
+nav > ul > li > ul { /* para que que los sub menu tenga el mismo ancho*/
+    width: 19%; 
+}
+nav a:hover {
+    color: #3964AF;
+    background: rgb(227, 227, 255);
+    animation: 1s ms 1;
+} 
+@keyframes ms {
+    0%{
+        opacity: 0;
+        transform: scale(1.6);
+
+    }
+/*Fin*/
+
+}
+
+
+
+
+
+ /* (div)CAJA PRINCIPAL*/                      /* CAJA PRINCIPAL2*/                                                            
+ #contenedor2 {
+
+    padding: 100px 0 0 0;
+   text-align: center;
+   width:70%;
+   margin: 0px auto;
+   background-color: white;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+
+}
+
+/*Inicio*/                                       /*CABESERA*/                                         
+header{
+   width: 100%;
+   height: 500px;
+   
+  
+}
+.img-header{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+#principal{
+    background-image: url(../imagenes/histoiaimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    width: 100%;
+    height: 500px;
+    
+}
+.sub-pri{
+    background-color: black;
+    width: 50%;
+    height: 250px;
+    color: white;
+    margin: 100px auto;
+
+ 
+   
+}
+.base1{
+    margin: 5px 10px 5px 10px;
+    font-size: 30px;
+    text-align: left ;
+    
+}
+.base2{
+    margin: 40px auto;
+    
+
+    
+}
+.base3{
+    margin: 20px auto;
+    
+    
+}
+
+
+
+
+#principal1{
+    width: 100%;
+    height: 800px;
+   
+    
+}
+.sub-prencipal1{
+    width: 100%;
+    height: 800px;
+    padding: 10px 10px 10px 10px;
+
+
+
+}
+.tipo1{
+    
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.tipo2{
+ 
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 3px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 25px;
+   
+
+
+
+
+
+}
+
+
+
+#principal5{
+    background-image: url(../imagenes/empanada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    border: 3px solid black;
+    margin: 2px auto;
+}
+.sub-principal5{
+    background-color: white;
+    width: 50%;
+    height: 300px;
+    color: black;
+    margin: 100px auto;
+
+}
+.caja1{
+    border: 1px solid white;
+   text-align: center   ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+.caja2{
+    border: 1px solid white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+}
+
+
+
+
+.integrantes{ 
+    width: 100%;
+	background-color:white ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+   
+ 
+    
+}
+.p-subcomentarios0{
+   
+    margin: 20px auto;
+    width: 50%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.subcomentarios{
+    width: 33.333%;
+	background-color:white;
+    margin: 5px 0px;
+    padding: 0px;
+}
+.img-subc{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+.h1-comen{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*PIE DE PAGINA*/
+    
+.restauran2{/*INICIO*/ 
+    width: 100%;
+	background-color:#232E7C;
+    background-image: url(../imagenes/fondo.jpg);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    border: 2px outset #232E7C;  
+    height: 150px;
+  
+ 
+    
+}
+.sub-restauran22{
+    width: 30%;  
+  height: 100%;
+    color: white; 
+   
+}
+.sub-restauran23{
+    width: 30%;  
+    height: 100%;
+    color: white;  
+    justify-content: center;
+
+}
+.h1-pie{
+    margin: 10px 0 10px 0;
+  
+
+}
+.rs-pie{
+    width: 100%;
+	height: 60px;
+
+   
+}
+.rs-2{
+	float: right;
+	margin: 10px 30px 0 0;
+	color: white;
+}
+.rs-2:hover{
+	color: black;
+}
+.sub-restauran24{
+    width: 40%;  
+
+    height: 100%;
+
+    color: white;
+ 
+   
+}
+
+
+
+
+
+
+                                   
+                                                               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                 /*BOTON DE NEON GENERAL*/ 
+                                                    
+/*INICIO*/
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: orange;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    text-align: center;
+
+    background-color: black;
+ 
+
+
+   
+}
+.btn-neon:hover{
+    background: white;
+    box-shadow: 0 0 10px orange, 0 0 40px white   ,0 0 80px  white;
+    transition-delay: 1s;
+     }
+.btn-neon span {
+         position: absolute;
+         display: block;
+     }
+#span1{
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,orange);
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent, orange);
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+ 
+}
+/*FIN*/

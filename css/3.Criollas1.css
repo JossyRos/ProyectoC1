@@ -1,0 +1,408 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    
+ 
+  
+ }
+ body {
+     background-color: white ;
+
+ }
+
+
+                                  /*Etiqueta fija*/
+/*INICIO*/
+#contenedor1 {  
+	width: 100%;
+	background-color:white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    position: fixed;
+   
+}
+.subconte{
+	width: 30%;
+	height: 60px;
+	background-color: #232E7C;
+   
+
+
+
+}
+.subconte-medio{
+	width: 40%;
+	height: 60px;
+	background-color: #232E7C;
+
+
+
+}
+.h1-medio{
+  margin: 7px;
+  font-size: 40px;
+    text-align: center;
+    color: orange;
+
+    
+}
+.h1-conte{
+    text-decoration: none; 
+	
+    margin: 20px 0 0 20px;
+
+	font-size: 25px;
+	color: white;
+    
+  
+ 
+
+
+}                                    /*Redes sociales*/
+.rs{
+ 
+	float: right;
+	margin: 10px 20px 0 0;
+	color: white;
+    
+
+}
+.rs:hover{
+	color: black;
+}
+/*FIN*/
+
+
+                                                  /*MENU DE NAVEGACION 
+(nav)Caja principal*/
+
+
+
+nav{/* color de fondo*/ 
+    background-color: white;  
+    width: 100%;
+    text-align: center; 
+	margin: 0px 150px 0px 150px;
+	padding: 10px;
+   
+
+
+}
+nav ul { /*se le quita los punto negros*/
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;   
+}
+nav > ul { /*para pornerlo de manera horizontal*/
+    display: flex;
+    flex-direction: row;  
+}
+nav > ul > li {
+    width: 20%;
+ 
+}
+nav a { /*tamaño, color y mas carateristicas dentro de (a)*/
+    text-decoration: none; 
+     color: #232E7C;
+     display: block;   /*para que cubran el tamaño de sus contenedor*/
+     padding: 5px;
+     font-family: Geneva, sans-serif;
+}
+nav > ul > li > ul { /* se ocultan las listas */
+    display: none;
+}
+nav > ul > li:hover > ul { /* luego para que vuelva aparecer*/
+    display: block;   
+    position: absolute;
+    background-color: white;
+}
+nav > ul > li > ul { /* para que que los sub menu tenga el mismo ancho*/
+    width: 19%; 
+}
+nav a:hover {
+    color: #3964AF;
+    background: rgb(227, 227, 255);
+    animation: 1s ms 1;
+} 
+@keyframes ms {
+    0%{
+        opacity: 0;
+        transform: scale(1.6);
+
+    }
+/*Fin*/
+
+}
+
+
+
+
+
+ /* (div)CAJA PRINCIPAL*/                      /* CAJA PRINCIPAL2*/                                                            
+ #contenedor2 {
+
+    padding: 100px 0 0 0;
+   text-align: center;
+   width: 70%;
+   margin: 0px auto;
+   background-color: white;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+
+}
+
+/*Inicio*/                                       /*CABESERA*/                                         
+header{
+   width: 100%;
+   height: 500px;
+   
+  
+}
+.img-header{
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+
+
+/*Inicio*/                                       /*RESTAURANTES*/          
+
+.restauran1{/*INICIO*/ 
+    width: 100%;
+    margin: 20px auto;
+	background-color:white ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    border: 5px double orange;
+  
+ 
+    
+}
+.sub-restauran1{
+    width: 31%;  
+	background-color:white;
+    margin: 5px auto;
+    padding: 0px;
+    border: 3px outset #232E7C;
+ 
+   
+}
+.img-restauran1{
+    width: 50%;
+    margin-top: 65px;
+    margin-bottom: 20px;
+   
+    
+}
+.descripcion{
+    padding: 0px;
+    margin-top: 65px;
+    margin-bottom: 20px;
+  
+    
+}
+.estrella{
+    color: orange;
+    font-size: 50px;
+}
+.mapa{ 
+ 
+
+    margin-top: 65px;
+    margin-bottom: 20px;
+     }
+
+
+
+
+.linea-blu{
+
+    width: 100%;
+    height: 100%;
+    margin: 5px auto;
+}
+.img-linea{
+  
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+}
+                 
+
+.restauran2{/*INICIO*/ 
+    width: 100%;
+    margin: 20px auto;
+	background-color:#232E7C;
+    background-image: url(fondo.jpg);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  
+    border: 2px outset #232E7C;  
+    height: 150px;
+  
+ 
+    
+}
+.sub-restauran22{
+    width: 30%;  
+  height: 100%;
+    color: white; 
+   
+}
+.sub-restauran23{
+    width: 30%;  
+    height: 100%;
+    color: white;  
+    justify-content: center;
+
+}
+.h1-pie{
+    margin: 10px 0 10px 0;
+  
+
+}
+.rs-pie{
+    width: 100%;
+	height: 60px;
+
+   
+}
+.rs-2{
+	float: right;
+	margin: 10px 30px 0 0;
+	color: white;
+}
+.rs-2:hover{
+	color: black;
+}
+.sub-restauran24{
+    width: 40%;  
+
+    height: 100%;
+
+    color: white;
+ 
+   
+}
+.parrafo1{
+    text-align: left;
+ 
+    margin: 0 0 0 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                 /*BOTON DE NEON GENERAL*/ 
+                                                    
+/*INICIO*/
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: orange;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+ 
+
+
+   
+}
+.btn-neon:hover{
+    background: #232E7C;
+    box-shadow: 0 0 10px #232E7C, 0 0 40px #232E7C,0 0 80px #232E7C;
+    transition-delay: 1s;
+     }
+.btn-neon span {
+         position: absolute;
+         display: block;
+     }
+#span1{
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,orange);
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent, orange);
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+/*FIN*/

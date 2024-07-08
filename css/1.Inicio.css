@@ -1,0 +1,612 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+
+ }
+ 
+ body {
+     background-color: white;
+ 
+
+ }
+
+
+
+
+                                    /*Etiqueta fija*/
+/*INICIO*/
+ #contenedor1 {  
+	width: 100%;
+	background-color:white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    position: fixed;
+    z-index:1000;
+   
+}
+.subconte{
+	width: 30%;
+	height: 60px;
+	background-color: #232E7C;
+   
+
+
+
+}
+.subconte-medio{
+	width: 40%;
+	height: 60px;
+	background-color: #232E7C;
+
+
+
+}
+.h1-medio{
+  margin: 7px;
+  font-size: 40px;
+    text-align: center;
+    color: orange;
+
+    
+}
+.h1-conte{
+    text-decoration: none; 
+	
+    margin: 20px 0 0 20px;
+
+	font-size: 25px;
+	color: white;
+    
+  
+ 
+
+
+}                                    /*Redes sociales*/
+.rs{
+ 
+	float: right;
+	margin: 10px 20px 0 0;
+	color: white;
+    
+
+}
+.rs:hover{
+	color: black;
+}
+/*FIN*/
+
+
+                                       /*MENU DE NAVEGACION*/ 
+
+
+/*INICIO*/
+nav{
+    background-color: white;  
+    width: 100%;
+    text-align: center; 
+	margin: 0px 150px 0px 150px;
+	padding: 10px;
+   
+
+
+}
+nav ul { /*se le quita los punto negros*/
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;   
+}
+nav > ul { /*para pornerlo de manera horizontal*/
+    display: flex;
+    flex-direction: row;  
+}
+nav > ul > li {
+    width: 20%;
+ 
+}
+nav a { /*tamaño, color y mas carateristicas dentro de (a)*/
+    text-decoration: none; 
+     color: #232E7C;
+     display: block;   /*para que cubran el tamaño de sus contenedor*/
+     padding: 5px;
+     font-family: Geneva, sans-serif;
+}
+nav > ul > li > ul { /* se ocultan las listas */
+    display: none;
+}
+nav > ul > li:hover > ul { /* luego para que vuelva aparecer*/
+    display: block;   
+    position: absolute;
+    background-color: white;
+}
+nav > ul > li > ul { /* para que que los sub menu tenga el mismo ancho*/
+    width: 19%; 
+}
+nav a:hover {
+    color: #3964AF;
+    background: rgb(227, 227, 255);
+    animation: 1s ms 1;
+} 
+@keyframes ms {
+    0%{
+        opacity: 0;
+        transform: scale(1.6);
+
+    }
+/*Fin*/
+
+}
+/*FIN*/
+
+
+
+
+
+                                        /* CAJA PRINCIPAL2*/                                                            
+ #contenedor2 {
+     padding: 100px 0 0 0;
+    text-align: center;
+	width: 70%;
+    margin:0px auto;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+ 
+                                                /*CABESERA*/                                         
+header{
+    width: 100%;
+	height: 500px;
+}
+header img.banner {
+	width: 100%;
+	height: 500px;
+	vertical-align: bottom;
+} 
+
+
+
+
+
+
+                                          /*PRIMERA IMAGEN A LA IZQUIERDA*/
+
+
+.audio{
+    width: 100%;
+    margin: 10px auto;
+}                                        
+aside {
+	width: 45%;
+margin: 10px auto;
+	background-color:white;
+    border: 5px double orange;
+}
+
+aside img {
+    width: 100%;
+   
+    vertical-align: bottom;
+
+ 
+   
+    
+}
+
+
+                                           /*SEGUNDA IMAGEN A LA DERECHA*/
+
+
+.sect1{
+	width: 45%;
+    border: 5px double orange;
+	background-color:white;
+    margin: 10px auto;
+}
+section img{
+    width: 100%;
+ 
+    vertical-align: bottom;
+
+ 
+}
+
+
+
+                                            
+                                                /*COSTRA SIERRA SELVA*/
+
+
+/*INICIO*/                                /*COSTA*/
+.csv1{ 
+    text-align: center;
+	width: 100%;
+	height: 500px;
+	background-color:white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+   
+}
+.publicidad1{
+	width: 20%;
+  
+}
+.img-publcidad1{	
+	width: 100%;
+	height: 500px;
+}
+.csv-costa{
+	width: 60%;
+
+background-color: #232E7C;
+border: 2px solid orangered;
+ }
+ .img-costa{
+	width: 100%;
+	height: 500px;
+	border: 2px solid orangered;
+
+}
+.publicidad2{
+    width: 20%;
+    
+}
+.img-publcidad2{
+	width: 100%;
+	height: 500px;
+	
+
+
+}
+/*FIN*/
+
+ 
+/*INICIO*/                                  /*SIERRA*/
+.csv2{
+    text-align: center;
+	width: 100%;
+	height: 500px;
+	background-color:white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+ 
+}
+.publicidad3{
+	width: 20%;
+  
+}
+.img-publcidad3{	
+	width: 100%;
+	height: 500px;
+}
+.csv-sierra{
+	width: 60%;
+	height: 500px;
+background-color: #232E7C;
+border: 2px solid orangered;
+ }
+ .img-sierra{
+	width: 100%;
+	height: 500px;
+	border: 2px solid orangered;
+
+}
+.publicidad4{
+	width: 20%;
+	height: 100%;
+
+}
+.img-publicidad4{
+    width: 100%;
+	height: 500px;
+}
+/*FIN*/
+  
+/*INICIO*/                                    /*SELVA*/
+.csv3{ 
+    text-align: center;
+	width: 100%;
+	height: 500px;
+	background-color:white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+
+}
+.publicidad5{
+	width: 20%;
+  
+}
+.img-publcidad5{	
+	width: 100%;
+	height: 500px;
+}
+.csv-selva{
+	width: 60%;
+	height: 500px;
+background-color: #232E7C;
+border: 2px solid orangered;
+ }
+ .img-selva{
+    width: 100%;
+	height: 100%;
+
+
+
+}
+.publicidad6{
+	width: 20%;
+	height: 100%;
+
+}
+.img-publcidad6{
+    width: 100%;
+	height: 500px;
+}
+/*FIN*/
+
+
+
+                                    /* PORQUE CONFIAR EN NOSOTROS? */
+
+.confiar{
+    width:  100%;
+    height: 100%;
+	background-color: #232E7C;
+    margin: 10px auto;
+}
+.confiar-img{
+    width:  10%;
+    height: 10%;
+    margin: 5px auto; 
+    border: 1px solid black;
+}
+.confiar h1{
+    padding: 30px;  
+    color: white;
+}                                                                    
+
+
+                              /*COMENTARIOS de ¿Por que confiar en nosotros?*/
+                                                               
+.comentarios{
+    width: 100%;
+	background-color:white ;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+ 
+    
+}
+.subcomentarios{
+    width: 33.333%;
+	background-color:white;
+    margin: 5px 0px;
+    padding: 0px;
+}
+.img-subc{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+.h1-comen{
+    color: #232E7C;
+}
+.p-subc{
+    color: #232E7C;
+    text-align: left;
+    margin: 10px 10px;
+}
+
+
+ 
+                                                    /* RESTAURANTE DEL DIA Y MAPA*/
+
+.delDia{
+    width: 100%;
+	background-color:white;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  
+}
+.subdelDia{
+    width: 33.333%;
+	background-color:white;
+    margin: 5px 0px;
+    text-align: center;
+   
+ 
+
+}
+.img-delDia{
+    width: 100%;
+    height: 400px;
+
+}
+.estrella{
+    color: orange;
+    font-size: 50px;
+}
+.mapa{
+    margin-top: 65px;
+    margin-bottom: 20px;
+ 
+    
+}
+
+                                                     /*VIDEOS RECOMENDADOS(titulo)*/
+
+.videoRecomendado{
+    margin: 10px auto;
+    width:  100%;
+    height: 100%;  
+}
+.h1-vc{
+    padding: 15px;
+}
+
+
+
+                                                          /*LOS VIDEOS RECOMENDADOS*/
+
+.videoTextoBoton{
+    width: 100%;
+	background-color:white ;
+	margin: 1px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.vtb{
+    width: 33.333%;
+	background-color:white;
+    margin: 5px 0px;
+    padding: 0px;  
+
+}
+
+
+
+                                   /*PIE DE PAGINA*/            
+
+.restauran2{
+        width: 100%;
+        margin: 20px auto;
+        background-color:#232E7C;
+        background-image: url(fondo.jpg);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      
+        border: 2px outset #232E7C;  
+        height: 150px;
+      
+     
+        
+    }
+.sub-restauran22{
+        width: 30%;  
+      height: 100%;
+        color: white; 
+       
+    }
+.sub-restauran23{
+        width: 30%;  
+        height: 100%;
+        color: white;  
+        justify-content: center;
+    
+    }
+.h1-pie{
+        margin: 10px 0 10px 0;
+      
+    
+    }
+.hacemos-pie{
+    color:white;
+    text-decoration: none;
+}    
+.rs-pie{
+        width: 100%;
+        height: 60px;
+    
+       
+    }
+.rs-2{
+        float: right;
+        margin: 10px 30px 0 0;
+        color: white;
+    }
+.rs-2:hover{
+        color: black;
+    }
+.sub-restauran24{
+        width: 40%;  
+    
+        height: 100%;
+    
+        color: white;
+     
+       
+    }
+.parrafo1{
+        text-align: left;
+     
+        margin: 0 0 0 20px;
+    
+    }
+
+
+
+
+
+                                     /*BOTON DE NEON*/ 
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: red;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    border: 1px solid black;
+}
+.btn-neon:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #412a47, 0 0 40px #a945c7,0 0 80px #a945c7;
+    transition-delay: 1s;
+     }
+.btn-neon span {
+         position: absolute;
+         display: block;
+     }
+#span1{
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#a945c7);
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#a945c7);
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
